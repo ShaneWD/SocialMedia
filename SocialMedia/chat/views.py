@@ -3,4 +3,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 def chat_home(request):
-    return HttpResponse("<h1>Chat Home</h1>")
+    context = {
+
+    }
+    return render(request, "chat/chat_home.html", context)
