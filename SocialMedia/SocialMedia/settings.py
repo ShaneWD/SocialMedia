@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     #Apps
     'main.apps.MainConfig',
     'users.apps.UsersConfig',
+    'chat.apps.ChatConfig',
 
     #ALlauth
     'django.contrib.sites',
