@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'main.apps.MainConfig',
     'users.apps.UsersConfig',
     'chat.apps.ChatConfig',
+    'channels',
 
     #ALlauth
     'django.contrib.sites',
@@ -149,3 +150,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'users.User'
 
 LOGIN_REDIRECT_URL = 'home'
+
+ASGI_APPLICATION = 'SocialMedia.asgi.application'
